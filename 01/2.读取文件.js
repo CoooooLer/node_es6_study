@@ -1,17 +1,37 @@
 import fs from 'fs'
-import path from 'path'
+import { fileURLToPath } from 'url'
+import { dirname } from 'path'
 
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = dirname(__filename)
 
-// const fs = require('fs') // fs系统函数
-// const path = require('path')
+const file = __dirname + '/data/test.txt'
 
-// let fileName = path.delimiter + '/data/test.txt'
-console.log(__dirname)
-
-// fs.readFile(fileName, (err, data) => {
+// fs.readFile(file, (err, data) => {
 //   if(err) {
-//     console.log('fail',err);
+//     console.log('fail: ',err);
 //   } else {
-//     console.log('success', data.toString());
+//     console.log('success: ', data.toString());
 //   }
+//
 // });
+
+fs.open(file, 'r', (err, fd) => { // 检查文件是否存在
+  if(err) {
+    if(err.code === 'ENOENT') {
+      console.log(`${file}--不存在`)
+      return
+    }
+
+    throw err;
+  }
+
+  fs.readFile(file, (err, data) => {
+    if(err){
+      throw err
+    } else {
+      console.log(`success: ${data}`)
+    }
+  })
+
+})
