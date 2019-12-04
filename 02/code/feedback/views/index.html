@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>首页</title>
+  <link rel="stylesheet" href="/public/lib/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="jumbotron">
+      <h1 class="display-4">Hello, world!</h1>
+      <hr class="my-4">
+      <a class="btn btn-primary btn-lg" type="button" href="/post" role="button">发表</a>
+    </div>
+    <div class="card">
+      <ul class="list-group list-group-flush">
+        {{ each comments }}
+        <li class="list-group-item">{{ $value.name }}说:{{ $value.message }}<span class="float-right">{{ $value.createTime }}</span></li>
+        {{ /each }}
+      </ul>
+    </div>
+  </div>
+
+</body>
+</html>
