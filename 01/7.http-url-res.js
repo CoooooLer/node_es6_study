@@ -9,6 +9,8 @@ server.on('request', (req, res) => {
   // 使用 end 结束的同时发送消息
   // res.end('哈嘿')
 
+
+
   // 根据不同的请求结果返回响应的内容
   let url = req.url
   let msg = ''
