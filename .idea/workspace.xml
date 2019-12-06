@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ef1d28d-cc0a-4cba-9aa9-58caf76b7c67" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/03/code/01-module/foo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03/code/01-module/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03/express-demo/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03/express-demo/public/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04/code/crud-express/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04/code/crud-express/db.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04/code/crud-express/public/css/dashboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04/code/crud-express/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04/code/express-demo/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04/code/express-demo/public/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04/code/express-demo/readMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04/code/feedback/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04/code/feedback/readMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04/code/feedback/views/admin/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04/readMe.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -19,20 +26,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/03/express-demo/app.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/04/code/crud-express/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+            <state relative-caret-position="45">
+              <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03/express-demo/public/js/main.js">
+        <entry file="file://$PROJECT_DIR$/04/code/crud-express/views/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="229">
+              <caret line="105" column="25" lean-forward="true" selection-start-line="105" selection-start-column="25" selection-end-line="105" selection-end-column="25" />
+              <folding>
+                <element signature="n#src#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/04/code/crud-express/db.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -42,11 +64,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Something else</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -54,22 +81,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/01/1..js" />
-        <option value="$PROJECT_DIR$/01/3.浏览器不认识node代码.js" />
-        <option value="$PROJECT_DIR$/01/3.浏览器不认识node代码.html" />
-        <option value="$PROJECT_DIR$/01/readMe.txt" />
-        <option value="$PROJECT_DIR$/01/2.1获取文件绝对路径.js" />
-        <option value="$PROJECT_DIR$/01/2.读取文件.js" />
-        <option value="$PROJECT_DIR$/01/4.写文件.js" />
-        <option value="$PROJECT_DIR$/01/readMe.md" />
-        <option value="$PROJECT_DIR$/01/5.http.js" />
-        <option value="$PROJECT_DIR$/01/6.http-res.js" />
-        <option value="$PROJECT_DIR$/01/09_模块化/a.js" />
-        <option value="$PROJECT_DIR$/01/09_模块化/b.js" />
-        <option value="$PROJECT_DIR$/01/9_module/package.json" />
-        <option value="$PROJECT_DIR$/01/9_module/a.js" />
-        <option value="$PROJECT_DIR$/01/9_module/c.js" />
-        <option value="$PROJECT_DIR$/01/9_module/b.js" />
         <option value="$PROJECT_DIR$/01/9_module/import_export/b.js" />
         <option value="$PROJECT_DIR$/01/9_module/import_export/a.js" />
         <option value="$PROJECT_DIR$/01/10.js" />
@@ -105,14 +116,30 @@
         <option value="$PROJECT_DIR$/03/express-demo/public/js.js" />
         <option value="$PROJECT_DIR$/03/express-demo/public/js/main.js" />
         <option value="$PROJECT_DIR$/03/express-demo/app.js" />
+        <option value="$PROJECT_DIR$/04/code/express-demo/package.json" />
+        <option value="$PROJECT_DIR$/04/code/express-demo/readMe.md" />
+        <option value="$PROJECT_DIR$/04/code/express-demo/index.html" />
+        <option value="$PROJECT_DIR$/04/code/express-demo/public/js/main.js" />
+        <option value="$PROJECT_DIR$/04/code/express-demo/app.js" />
+        <option value="$PROJECT_DIR$/04/code/feedback/package.json" />
+        <option value="$PROJECT_DIR$/04/code/feedback/readMe.md" />
+        <option value="$PROJECT_DIR$/04/code/feedback/views/admin/index.html" />
+        <option value="$PROJECT_DIR$/04/code/feedback/views/post.html" />
+        <option value="$PROJECT_DIR$/04/code/feedback/app.js" />
+        <option value="$PROJECT_DIR$/04/readMe.md" />
+        <option value="$PROJECT_DIR$/04/code/crud-express/package.json" />
+        <option value="$PROJECT_DIR$/04/code/crud-express/public/css/dashboard.css" />
+        <option value="$PROJECT_DIR$/04/code/crud-express/views/index.html" />
+        <option value="$PROJECT_DIR$/04/code/crud-express/app.js" />
+        <option value="$PROJECT_DIR$/04/code/crud-express/db.json" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="810" />
-    <option name="y" value="93" />
+    <option name="x" value="840" />
+    <option name="y" value="105" />
     <option name="width" value="1325" />
-    <option name="height" value="1016" />
+    <option name="height" value="952" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -131,13 +158,20 @@
             <path>
               <item name="node" type="b2602c69:ProjectViewProjectNode" />
               <item name="node" type="462c0819:PsiDirectoryNode" />
-              <item name="03" type="462c0819:PsiDirectoryNode" />
+              <item name="04" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="node" type="b2602c69:ProjectViewProjectNode" />
               <item name="node" type="462c0819:PsiDirectoryNode" />
-              <item name="03" type="462c0819:PsiDirectoryNode" />
-              <item name="express-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="04" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="node" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node" type="462c0819:PsiDirectoryNode" />
+              <item name="04" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="crud-express" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -149,7 +183,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/02/code/feedback/public/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/04/code/feedback" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -157,16 +191,18 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\phpStudy\PHPTutorial\WWW\study\node\04\code\express-demo\public" />
+      <recent name="C:\phpStudy\PHPTutorial\WWW\study\node\03\express-demo\public\js" />
+      <recent name="C:\phpStudy\PHPTutorial\WWW\study\node\02\code" />
+      <recent name="C:\phpStudy\PHPTutorial\WWW\study\node\01" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\phpStudy\PHPTutorial\WWW\study\node\04\code\feedback" />
       <recent name="C:\phpStudy\PHPTutorial\WWW\study\node\02\code\feedback\public\lib" />
       <recent name="C:\phpStudy\PHPTutorial\WWW\study\node\02\code\feedback\public\js" />
       <recent name="C:\phpStudy\PHPTutorial\WWW\study\node\02\code\feedback\public\css" />
       <recent name="C:\phpStudy\PHPTutorial\WWW\study\node\01\resource" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\phpStudy\PHPTutorial\WWW\study\node\03\express-demo\public\js" />
-      <recent name="C:\phpStudy\PHPTutorial\WWW\study\node\02\code" />
-      <recent name="C:\phpStudy\PHPTutorial\WWW\study\node\01" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -198,12 +234,13 @@
       <workItem from="1575262708634" duration="10399000" />
       <workItem from="1575334966541" duration="15060000" />
       <workItem from="1575420966200" duration="14314000" />
-      <workItem from="1575508874169" duration="6083000" />
+      <workItem from="1575508874169" duration="6547000" />
+      <workItem from="1575594969561" duration="15113000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70602000" />
+    <option name="totallyTimeSpent" value="86179000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -215,13 +252,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="810" y="93" width="1325" height="1016" extended-state="0" />
+    <frame x="840" y="105" width="1325" height="952" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18104118" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1950272" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32918552" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32844934" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -230,7 +267,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="RNConsole" order="9" weight="0.32842582" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.33408833" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.42246643" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -261,124 +298,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/01/data/test.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01/data/你好.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01/1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01/3.浏览器不认识node代码.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01/2.1获取文件绝对路径.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01/readMe.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="66">
-            <caret line="3" selection-start-line="3" selection-end-line="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01/5.http.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01/2.读取文件.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01/4.写文件.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01/6.http-res.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01/09_模块化/a.js" />
-    <entry file="file://$PROJECT_DIR$/01/09_模块化/b.js" />
-    <entry file="file://$PROJECT_DIR$/01/10.ip地址和端口号.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01/7.http-url-res.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
-          <folding>
-            <element signature="e#93#695#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01/resource/hello.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" selection-start-column="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/01/resource/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -488,16 +407,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02/code/feedback/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="82" column="32" selection-start-line="82" selection-start-column="32" selection-end-line="82" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/01/11.http-content-type.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -599,6 +508,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <folding>
+              <element signature="e#2#37#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03/express-demo/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/03/express-demo/public/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -606,10 +534,153 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03/express-demo/app.js">
+    <entry file="file://$PROJECT_DIR$/04/code/express-demo/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+        <state relative-caret-position="110">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04/code/express-demo/readMe.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="198">
+            <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04/code/express-demo/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04/code/express-demo/public/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04/code/express-demo/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04/code/feedback/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04/code/feedback/readMe.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="110">
+            <caret line="5" column="42" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="42" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02/code/feedback/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" selection-start-line="5" selection-end-line="26" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04/code/feedback/views/admin/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04/code/feedback/views/post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04/readMe.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="66">
+            <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04/code/feedback/public/lib/bootstrap/js/src/tools/sanitizer.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04/code/feedback/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="64" column="40" selection-start-line="64" selection-start-column="40" selection-end-line="64" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#116#457#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04/code/crud-express/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04/code/crud-express/public/css/dashboard.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="130" column="1" selection-start-line="130" selection-start-column="1" selection-end-line="130" selection-end-column="1" />
+          <folding>
+            <element signature="e#2233#7780#2" expanded="true" />
+            <element signature="e#7881#13452#2" expanded="true" />
+            <element signature="e#13560#22231#2" expanded="true" />
+            <element signature="e#22332#26191#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04/code/crud-express/views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="105" column="25" lean-forward="true" selection-start-line="105" selection-start-column="25" selection-end-line="105" selection-end-column="25" />
+          <folding>
+            <element signature="n#src#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04/code/crud-express/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04/code/crud-express/db.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
         </state>
       </provider>
     </entry>
