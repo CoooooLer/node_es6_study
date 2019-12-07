@@ -84,36 +84,35 @@
         {{ /each }}
       </div>
 
-      <h2 class="sub-header">Section title</h2>
+      <h2 class="sub-header">添加学生</h2>
       <div class="table-responsive">
-        <a class="btn btn-success" href="/students/new">添加学生</a>
-        <table class="table table-striped">
-          <thead>
-            <tr>
-              <th>#</th>
-              <th>姓名</th>
-              <th>性别</th>
-              <th>年龄</th>
-              <th>爱好</th>
-              <th>操作</th>
-            </tr>
-          </thead>
-          <tbody>
-            {{ each students }}
-            <tr>
-              <td></td>
-              <td>{{ $value.name }}</td>
-              <td>{{ $value.gender }}</td>
-              <td>{{ $value.age }}</td>
-              <td>{{ $value.hobbies }}</td>
-              <td>
-                <a href="/students/edit?id={{ $value.id }}">编辑</a>
-                <a href="/students/delete?id={{ $value.id }}">删除</a>
-              </td>
-            </tr>
-            {{ /each }}
-          </tbody>
-        </table>
+        <form action="/students/new" method="post">
+          <div class="form-group">
+            <label for="exampleInputEmail1">姓名</label>
+            <input type="text" name="name" class="form-control" id="exampleInputEmail1" placeholder="">
+          </div>
+          <div class="form-group">
+            <label for="gender">性别</label>
+            <div>
+              <label class="radio-inline">
+                <input type="radio" name="gender" id="inlineRadio1" value="0"> 女
+              </label>
+              <label class="radio-inline">
+                <input type="radio" name="gender" id="inlineRadio2" value="1"> 男
+              </label>
+            </div>
+
+          </div>
+          <div class="form-group">
+            <label for="age">年龄</label>
+            <input type="text" name="age" class="form-control" id="age" placeholder="">
+          </div>
+          <div class="form-group">
+            <label for="hobbies">爱好</label>
+            <input type="text" name="hobbies" class="form-control" id="hobbies" placeholder="">
+          </div>
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
       </div>
     </div>
   </div>
