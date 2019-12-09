@@ -40,9 +40,9 @@ export default class student {
   }
 
 
-/*
-* 添加保存学生
-* */
+  /*
+  * 添加保存学生
+  * */
   save(student) {
     return new Promise((resolve, reject) => {
       fs.readFile(dbPath, (err, data) => {
@@ -76,9 +76,29 @@ export default class student {
   }
 
   /*
+  * 通过学生id查出学生信息
+  * */
+  findById(id) {
+    return new Promise( (resolve, reject) => {
+      fs.readFile(dbPath, (err, data) => {
+        if(err) {
+          reject(err)
+        }
+        let students = JSON.parse(data).students
+        let stu = students.find(item => {
+          return item.id === id
+        })
+
+        resolve(stu)
+      })
+    })
+  }
+
+
+  /*
   * 更新学生
   * */
-  update(student) {
+  updateById(student) {
     return new Promise((resolve, reject) => {
       fs.readFile(dbPath, (err, data) => {
         if (err) {
@@ -87,18 +107,21 @@ export default class student {
         // console.log(data)
         let students = JSON.parse(data).students
 
-        let stu = students.find(item => {
-          return item.id === student.id
+        students.find((item, index, arr) => {
+          if (item.id === student.id) {
+            Object.assign(arr[index], student)
+          }
+          // return item.id === student.id
         })
 
-        Object.assign(stu, student)
+        // Object.assign(stu, student)
 
         let fileData = JSON.stringify({
           students: students
         })
 
         fs.writeFile(dbPath, fileData, (err) => {
-          if(err) {
+          if (err) {
             reject(err)
           } else {
             resolve(null)
@@ -115,4 +138,4 @@ export default class student {
   del() {
 
   }
-}
+};

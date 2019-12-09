@@ -7,8 +7,8 @@ import stu from './student.js'
 let student = new stu()
 
 // student.update({
-//   id: 1,
-//   name: '鲸落'
+//   id: 4,
+//   name: 'c+++++'
 // })
 
 // 推荐
@@ -39,7 +39,7 @@ router.get('/students', (req, res) => {
        students: data
      })
    }).catch(err => {
-     console.log(err)
+     // console.log(err)
      res.status(500).send('server error')
    })
 
@@ -53,7 +53,7 @@ router.get('/students/new', (req, res) => {
 
 // 保存添加的数据
 router.post('/students/new', (req, res) => {
-  console.log(req.body)
+  // console.log(req.body)
   student.save(req.body)
       .then(res => {
         res.redirect('/students')
@@ -65,7 +65,15 @@ router.post('/students/new', (req, res) => {
 
 // 编辑信息页面
 router.get('/students/edit', (req, res) => {
-
+  // console.log(req.query.id)
+  let stu = student.findById(parseInt(req.query.id))
+  stu.
+    then(res => {
+      console.log(res)
+    })
+    .catch(err => {
+      console.log(`err====${err}`)
+    })
 })
 
 
