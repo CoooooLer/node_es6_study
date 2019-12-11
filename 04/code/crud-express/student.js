@@ -86,7 +86,7 @@ export default class student {
         }
         let students = JSON.parse(data).students
         let stu = students.find(item => {
-          return item.id === id
+          return item.id === parseInt(id)
         })
 
         resolve(stu)
@@ -104,17 +104,18 @@ export default class student {
         if (err) {
           reject(err)
         }
-        // console.log(data)
         let students = JSON.parse(data).students
 
-        students.find((item, index, arr) => {
-          if (item.id === student.id) {
-            Object.assign(arr[index], student)
+        student.id = parseInt(student.id)
+
+        let stu = students.find((item, index, arr) => {
+          if (item.id === parseInt(student.id)) {
+            // Object.assign(arr[index], student)
+            return item.id === student.id
           }
-          // return item.id === student.id
         })
 
-        // Object.assign(stu, student)
+        Object.assign(stu, student)
 
         let fileData = JSON.stringify({
           students: students
@@ -135,7 +136,34 @@ export default class student {
   /*
   * 删除学生
   * */
-  del() {
+  deleteById(id) {
+    return new Promise((resolve, reject) => {
+      fs.readFile(dbPath, (err, data) => {
+        if(err) {
+          reject(err)
+        }
 
+        let students = JSON.parse(data).students
+
+        let deleteIndex = students.findIndex(item => {
+          return item.id === parseInt(id)
+        })
+
+        students.splice(deleteIndex, 1)
+
+        let fileData = JSON.stringify({
+          students: students
+        })
+
+        fs.writeFile(dbPath, fileData, err => {
+          if(err) {
+            reject(err)
+          } else {
+            resolve(null)
+          }
+        })
+
+      })
+    })
   }
 };

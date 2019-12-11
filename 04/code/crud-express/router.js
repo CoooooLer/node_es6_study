@@ -68,14 +68,40 @@ router.get('/students/edit', (req, res) => {
   // console.log(req.query.id)
   let stu = student.findById(parseInt(req.query.id))
   stu.
-    then(res => {
-      console.log(res)
+    then(data => {
+      // console.log(res)
+      res.render('edit.html', {
+        student: data
+      })
     })
     .catch(err => {
       console.log(`err====${err}`)
     })
 })
 
+// 保存编辑信息
+router.post('/students/edit', (req, res) => {
+  // console.log(req.body)
+  student.updateById(req.body)
+      .then(data => {
+        res.redirect('/students')
+      })
+      .catch(err => {
+        res.status(500).send('server err...')
+      })
+})
+
+// 删除用户
+router.get('/students/delete', (req, res) => {
+  console.log(req.query.id)
+  student.deleteById(req.query.id)
+      .then(data => {
+        res.redirect('/students')
+      })
+      .catch(err => {
+        res.status(500).send('server err')
+      })
+})
 
 
 
