@@ -7,6 +7,7 @@
   导入模块使用`import xx from 'xx'` √
 
 > ReferenceError: __filename is not defined解决方法
+
 > ReferenceError: __dirname is not defined解决方法
 
   * 在项目目录控制终端执行命令`npm init -y`创建 `package.json`文件,并添加一句`"type": "module"`
