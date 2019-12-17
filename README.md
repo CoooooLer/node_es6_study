@@ -6,12 +6,13 @@
 
   导入模块使用`import xx from 'xx'` √
 
-### ReferenceError: __filename is not defined解决方法
-### ReferenceError: __dirname is not defined解决方法
+#### ReferenceError: __filename is not defined解决方法
+
+#### ReferenceError: __dirname is not defined解决方法
 
   * 在项目目录控制终端执行命令`npm init -y`创建 `package.json`文件,并添加一句`"type": "module"`
 
-  * 利用 `import.meta`
+  ##### 1: 利用 `import.meta`
   ```javascript
   import { fileURLToPath } from 'url'
   import { dirname } from 'path'
@@ -25,3 +26,11 @@
 
 
 > 详情点击 <kbd> [import.meta](https://nodejs.org/api/esm.html) </kbd>查看
+
+##### 2：
+```
+const __dirname = path.resolve()
+const __dirname = process.cwd()
+const __dirname = fs.realpathSync('.')
+const __dirname = process.env.PWD
+```
