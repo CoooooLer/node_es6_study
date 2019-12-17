@@ -36,13 +36,81 @@ let User = mongoose.model('User', userSchema)
 //   password: '123',
 //   email: 'admin@admin.com'
 // })
-
-// 添加数据
+//
+// // 添加数据
 // admin.save((err, ret) => {
 //   if(err) {
 //     console.log('保存失败')
 //   } else {
 //     console.log('保存成功')
+//     console.log(ret)
+//   }
+// })
+
+// 查询所有数据
+User.find((err, ret) => {
+  if(err) {
+    console.log('查询失败')
+  } else {
+    console.log(ret)
+  }
+})
+
+// 查询符合条件的所有数据
+// User.find({
+//   username: 'mike'
+// }, (err, ret) => {
+//   if(err) {
+//     console.log('查询失败')
+//   } else {
+//     console.log(ret)
+//   }
+// })
+
+// 查询符合条件的一条数据
+// User.findOne({
+//   username: 'mike',
+//   password: '123'
+// }, (err, ret) => {
+//   if(err) {
+//     console.log('查询失败')
+//   } else {
+//     console.log(ret)
+//   }
+// })
+
+// 删除数据
+// User.deleteOne({
+//   username: 'mike'
+// }, (err, ret) => {
+//   if(err) {
+//     console.log(err)
+//   } else {
+//     console.log(`删除成功`)
+//     console.log(ret)
+//   }
+// })
+
+// 删除数据
+// User.deleteMany({
+//   username: 'mike'
+// }, (err, ret) => {
+//   if(err) {
+//     console.log(err)
+//   } else {
+//     console.log(`删除成功`)
+//     console.log(ret)
+//   }
+// })
+
+// 更新数据
+// User.findByIdAndUpdate('5df19979a38f9604f05dcab4', {
+//   password: '14789'
+// }, (err, ret) => {
+//   if(err) {
+//     console.log(err)
+//   } else {
+//     console.log(`修改成功`)
 //     console.log(ret)
 //   }
 // })

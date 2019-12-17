@@ -2,13 +2,943 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ef1d28d-cc0a-4cba-9aa9-58caf76b7c67" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/04/code/crud-express/views/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05/code/mongoose-demo/demo01.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05/code/mongoose-demo/demo02.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/1-用promise封装readFile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/db.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/.bin/acorn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/.bin/acorn.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/.bin/acorn.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/.bin/escodegen" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/.bin/escodegen.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/.bin/escodegen.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/.bin/esgenerate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/.bin/esgenerate.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/.bin/esgenerate.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/.bin/esparse" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/.bin/esparse.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/.bin/esparse.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/.bin/esvalidate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/.bin/esvalidate.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/.bin/esvalidate.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/.bin/he" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/.bin/he.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/.bin/he.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/.bin/html-minifier" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/.bin/html-minifier.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/.bin/html-minifier.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/.bin/mime" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/.bin/mime.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/.bin/mime.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/.bin/uglifyjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/.bin/uglifyjs.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/.bin/uglifyjs.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/accepts/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/accepts/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/accepts/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/accepts/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/accepts/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/acorn/AUTHORS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/acorn/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/acorn/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/acorn/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/acorn/bin/_acorn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/acorn/bin/acorn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/acorn/bin/run_test262.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/acorn/bin/test262.whitelist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/acorn/dist/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/acorn/dist/acorn.es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/acorn/dist/acorn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/acorn/dist/acorn_loose.es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/acorn/dist/acorn_loose.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/acorn/dist/walk.es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/acorn/dist/walk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/acorn/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/array-flatten/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/array-flatten/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/array-flatten/array-flatten.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/array-flatten/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/art-template/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/art-template/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/art-template/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/art-template/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/art-template/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/art-template/lib/compile/adapter/caches.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/art-template/lib/compile/adapter/extend.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/art-template/lib/compile/adapter/html-minifier.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/art-template/lib/compile/adapter/include.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/art-template/lib/compile/adapter/loader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/art-template/lib/compile/adapter/onerror.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/art-template/lib/compile/adapter/resolve-filename.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/art-template/lib/compile/adapter/rule.art.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/art-template/lib/compile/adapter/rule.native.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/art-template/lib/compile/compiler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/art-template/lib/compile/defaults.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/art-template/lib/compile/error.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/art-template/lib/compile/es-tokenizer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/art-template/lib/compile/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/art-template/lib/compile/runtime.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/art-template/lib/compile/tpl-tokenizer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/art-template/lib/defaults.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/art-template/lib/extension.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/art-template/lib/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/art-template/lib/precompile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/art-template/lib/render.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/art-template/lib/runtime.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/art-template/lib/template-web.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/art-template/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/body-parser/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/body-parser/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/body-parser/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/body-parser/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/body-parser/lib/read.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/body-parser/lib/types/json.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/body-parser/lib/types/raw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/body-parser/lib/types/text.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/body-parser/lib/types/urlencoded.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/body-parser/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/Gruntfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/dist/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/dist/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/dist/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/dist/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/dist/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/dist/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/dist/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/dist/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/dist/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/dist/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/dist/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/grunt/.jshintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/grunt/.stylelintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/grunt/browsers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/grunt/bs-commonjs-generator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/grunt/bs-glyphicons-data-generator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/grunt/bs-lessdoc-parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/grunt/bs-raw-files-generator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/grunt/change-version.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/grunt/configBridge.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/grunt/generate-sri.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/grunt/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/js/affix.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/js/alert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/js/button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/js/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/js/collapse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/js/dropdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/js/modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/js/popover.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/js/scrollspy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/js/tab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/js/tooltip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/js/transition.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/alerts.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/badges.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/bootstrap.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/breadcrumbs.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/button-groups.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/buttons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/carousel.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/close.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/code.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/component-animations.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/dropdowns.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/forms.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/glyphicons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/grid.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/input-groups.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/jumbotron.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/labels.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/list-group.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/media.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/mixins/alerts.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/mixins/background-variant.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/mixins/border-radius.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/mixins/buttons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/mixins/center-block.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/mixins/clearfix.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/mixins/forms.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/mixins/gradients.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/mixins/grid-framework.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/mixins/grid.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/mixins/hide-text.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/mixins/image.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/mixins/labels.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/mixins/list-group.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/mixins/nav-divider.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/mixins/nav-vertical-align.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/mixins/opacity.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/mixins/pagination.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/mixins/panels.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/mixins/progress-bar.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/mixins/reset-filter.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/mixins/reset-text.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/mixins/resize.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/mixins/responsive-visibility.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/mixins/size.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/mixins/tab-focus.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/mixins/table-row.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/mixins/text-emphasis.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/mixins/text-overflow.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/mixins/vendor-prefixes.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/modals.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/navbar.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/navs.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/normalize.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/pager.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/pagination.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/panels.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/popovers.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/print.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/progress-bars.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/responsive-embed.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/responsive-utilities.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/scaffolding.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/tables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/theme.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/thumbnails.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/tooltip.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/type.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/utilities.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/less/wells.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bootstrap/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bytes/History.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bytes/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bytes/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bytes/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/bytes/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/camel-case/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/camel-case/camel-case.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/camel-case/camel-case.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/camel-case/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/History.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/clean.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/optimizer/hack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/optimizer/level-0/optimize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/optimizer/level-1/optimize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/optimizer/level-1/shorten-hex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/optimizer/level-1/shorten-hsl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/optimizer/level-1/shorten-rgb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/optimizer/level-1/sort-selectors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/optimizer/level-1/tidy-at-rule.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/optimizer/level-1/tidy-block.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/optimizer/level-1/tidy-rules.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/optimizer/level-2/break-up.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/optimizer/level-2/can-override.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/optimizer/level-2/clone.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/optimizer/level-2/compactable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/optimizer/level-2/extract-properties.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/optimizer/level-2/invalid-property-error.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/optimizer/level-2/is-mergeable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/optimizer/level-2/merge-adjacent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/optimizer/level-2/merge-media-queries.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/optimizer/level-2/merge-non-adjacent-by-body.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/optimizer/level-2/merge-non-adjacent-by-selector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/optimizer/level-2/optimize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/optimizer/level-2/properties/every-values-pair.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/optimizer/level-2/properties/find-component-in.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/optimizer/level-2/properties/has-inherit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/optimizer/level-2/properties/is-component-of.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/optimizer/level-2/properties/is-mergeable-shorthand.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/optimizer/level-2/properties/merge-into-shorthands.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/optimizer/level-2/properties/optimize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/optimizer/level-2/properties/override-properties.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/optimizer/level-2/properties/overrides-non-component-shorthand.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/optimizer/level-2/properties/populate-components.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/optimizer/level-2/properties/understandable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/optimizer/level-2/properties/vendor-prefixes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/optimizer/level-2/reduce-non-adjacent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/optimizer/level-2/remove-duplicate-font-at-rules.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/optimizer/level-2/remove-duplicate-media-queries.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/optimizer/level-2/remove-duplicates.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/optimizer/level-2/remove-unused-at-rules.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/optimizer/level-2/reorderable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/optimizer/level-2/restore-with-components.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/optimizer/level-2/restore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/optimizer/level-2/restructure.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/optimizer/level-2/rules-overlap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/optimizer/level-2/specificities-overlap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/optimizer/level-2/specificity.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/optimizer/level-2/tidy-rule-duplicates.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/optimizer/remove-unused.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/optimizer/restore-from-optimizing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/optimizer/validator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/optimizer/wrap-for-optimizing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/options/compatibility.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/options/fetch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/options/format.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/options/inline-request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/options/inline-timeout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/options/inline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/options/optimization-level.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/options/rebase-to.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/options/rebase.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/options/rounding-precision.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/reader/apply-source-maps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/reader/extract-import-url-and-media.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/reader/input-source-map-tracker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/reader/is-allowed-resource.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/reader/load-original-sources.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/reader/load-remote-resource.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/reader/match-data-uri.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/reader/normalize-path.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/reader/read-sources.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/reader/rebase-local-map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/reader/rebase-remote-map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/reader/rebase.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/reader/restore-import.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/reader/rewrite-url.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/tokenizer/marker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/tokenizer/token.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/tokenizer/tokenize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/utils/clone-array.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/utils/format-position.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/utils/has-protocol.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/utils/is-data-uri-resource.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/utils/is-http-resource.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/utils/is-https-resource.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/utils/is-import.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/utils/is-remote-resource.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/utils/natural-compare.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/utils/override.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/utils/split.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/writer/helpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/writer/one-time.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/writer/simple.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/lib/writer/source-maps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/node_modules/source-map/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/node_modules/source-map/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/node_modules/source-map/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/node_modules/source-map/dist/source-map.debug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/node_modules/source-map/dist/source-map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/node_modules/source-map/dist/source-map.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/node_modules/source-map/dist/source-map.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/node_modules/source-map/lib/array-set.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/node_modules/source-map/lib/base64-vlq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/node_modules/source-map/lib/base64.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/node_modules/source-map/lib/binary-search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/node_modules/source-map/lib/mapping-list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/node_modules/source-map/lib/quick-sort.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/node_modules/source-map/lib/source-map-consumer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/node_modules/source-map/lib/source-map-generator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/node_modules/source-map/lib/source-node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/node_modules/source-map/lib/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/node_modules/source-map/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/node_modules/source-map/source-map.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/node_modules/source-map/source-map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/clean-css/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/commander/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/commander/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/commander/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/commander/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/commander/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/commander/typings/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/content-disposition/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/content-disposition/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/content-disposition/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/content-disposition/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/content-disposition/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/content-type/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/content-type/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/content-type/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/content-type/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/content-type/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/cookie-signature/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/cookie-signature/History.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/cookie-signature/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/cookie-signature/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/cookie-signature/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/cookie/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/cookie/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/cookie/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/cookie/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/cookie/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/debug/.coveralls.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/debug/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/debug/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/debug/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/debug/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/debug/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/debug/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/debug/component.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/debug/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/debug/node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/debug/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/debug/src/browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/debug/src/debug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/debug/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/debug/src/inspector-log.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/debug/src/node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/deep-is/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/deep-is/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/deep-is/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/deep-is/README.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/deep-is/example/cmp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/deep-is/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/deep-is/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/deep-is/test/NaN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/deep-is/test/cmp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/deep-is/test/neg-vs-pos-0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/depd/History.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/depd/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/depd/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/depd/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/depd/lib/browser/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/depd/lib/compat/callsite-tostring.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/depd/lib/compat/event-listener-count.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/depd/lib/compat/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/depd/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/destroy/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/destroy/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/destroy/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/destroy/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/ee-first/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/ee-first/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/ee-first/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/ee-first/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/encodeurl/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/encodeurl/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/encodeurl/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/encodeurl/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/encodeurl/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/escape-html/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/escape-html/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/escape-html/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/escape-html/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/escodegen/LICENSE.BSD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/escodegen/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/escodegen/bin/escodegen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/escodegen/bin/esgenerate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/escodegen/escodegen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/escodegen/node_modules/source-map/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/escodegen/node_modules/source-map/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/escodegen/node_modules/source-map/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/escodegen/node_modules/source-map/dist/source-map.debug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/escodegen/node_modules/source-map/dist/source-map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/escodegen/node_modules/source-map/dist/source-map.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/escodegen/node_modules/source-map/dist/source-map.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/escodegen/node_modules/source-map/lib/array-set.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/escodegen/node_modules/source-map/lib/base64-vlq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/escodegen/node_modules/source-map/lib/base64.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/escodegen/node_modules/source-map/lib/binary-search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/escodegen/node_modules/source-map/lib/mapping-list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/escodegen/node_modules/source-map/lib/quick-sort.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/escodegen/node_modules/source-map/lib/source-map-consumer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/escodegen/node_modules/source-map/lib/source-map-generator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/escodegen/node_modules/source-map/lib/source-node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/escodegen/node_modules/source-map/lib/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/escodegen/node_modules/source-map/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/escodegen/node_modules/source-map/source-map.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/escodegen/node_modules/source-map/source-map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/escodegen/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/esprima/ChangeLog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/esprima/LICENSE.BSD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/esprima/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/esprima/bin/esparse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/esprima/bin/esvalidate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/esprima/dist/esprima.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/esprima/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/estraverse/.jshintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/estraverse/LICENSE.BSD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/estraverse/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/estraverse/estraverse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/estraverse/gulpfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/estraverse/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/esutils/LICENSE.BSD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/esutils/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/esutils/lib/ast.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/esutils/lib/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/esutils/lib/keyword.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/esutils/lib/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/esutils/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/etag/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/etag/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/etag/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/etag/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/etag/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/express-art-template/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/express-art-template/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/express-art-template/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/express-art-template/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/express-art-template/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/express-art-template/test/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/express-art-template/test/views/include.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/express-art-template/test/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/express/History.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/express/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/express/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/express/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/express/lib/application.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/express/lib/express.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/express/lib/middleware/init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/express/lib/middleware/query.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/express/lib/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/express/lib/response.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/express/lib/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/express/lib/router/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/express/lib/router/route.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/express/lib/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/express/lib/view.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/express/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/fast-levenshtein/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/fast-levenshtein/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/fast-levenshtein/levenshtein.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/fast-levenshtein/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/finalhandler/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/finalhandler/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/finalhandler/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/finalhandler/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/finalhandler/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/forwarded/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/forwarded/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/forwarded/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/forwarded/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/forwarded/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/fresh/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/fresh/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/fresh/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/fresh/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/fresh/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/he/LICENSE-MIT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/he/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/he/bin/he" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/he/he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/he/man/he.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/he/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/html-minifier/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/html-minifier/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/html-minifier/cli.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/html-minifier/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/html-minifier/sample-cli-config-file.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/html-minifier/src/htmlminifier.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/html-minifier/src/htmlparser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/html-minifier/src/tokenchain.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/html-minifier/src/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/http-errors/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/http-errors/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/http-errors/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/http-errors/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/http-errors/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/iconv-lite/Changelog.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/iconv-lite/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/iconv-lite/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/iconv-lite/encodings/dbcs-codec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/iconv-lite/encodings/dbcs-data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/iconv-lite/encodings/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/iconv-lite/encodings/internal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/iconv-lite/encodings/sbcs-codec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/iconv-lite/encodings/sbcs-data-generated.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/iconv-lite/encodings/sbcs-data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/iconv-lite/encodings/tables/big5-added.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/iconv-lite/encodings/tables/cp936.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/iconv-lite/encodings/tables/cp949.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/iconv-lite/encodings/tables/cp950.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/iconv-lite/encodings/tables/eucjp.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/iconv-lite/encodings/tables/gb18030-ranges.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/iconv-lite/encodings/tables/gbk-added.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/iconv-lite/encodings/tables/shiftjis.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/iconv-lite/encodings/utf16.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/iconv-lite/encodings/utf7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/iconv-lite/lib/bom-handling.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/iconv-lite/lib/extend-node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/iconv-lite/lib/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/iconv-lite/lib/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/iconv-lite/lib/streams.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/iconv-lite/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/inherits/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/inherits/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/inherits/inherits.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/inherits/inherits_browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/inherits/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/ipaddr.js/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/ipaddr.js/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/ipaddr.js/ipaddr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/ipaddr.js/lib/ipaddr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/ipaddr.js/lib/ipaddr.js.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/ipaddr.js/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/is-keyword-js/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/is-keyword-js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/is-keyword-js/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/js-tokens/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/js-tokens/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/js-tokens/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/js-tokens/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/js-tokens/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/levn/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/levn/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/levn/lib/cast.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/levn/lib/coerce.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/levn/lib/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/levn/lib/parse-string.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/levn/lib/parse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/levn/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/lower-case/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/lower-case/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/lower-case/lower-case.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/lower-case/lower-case.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/lower-case/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/media-typer/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/media-typer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/media-typer/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/media-typer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/media-typer/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/merge-descriptors/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/merge-descriptors/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/merge-descriptors/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/merge-descriptors/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/merge-descriptors/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/merge-source-map/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/merge-source-map/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/merge-source-map/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/merge-source-map/node_modules/source-map/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/merge-source-map/node_modules/source-map/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/merge-source-map/node_modules/source-map/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/merge-source-map/node_modules/source-map/dist/source-map.debug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/merge-source-map/node_modules/source-map/dist/source-map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/merge-source-map/node_modules/source-map/dist/source-map.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/merge-source-map/node_modules/source-map/dist/source-map.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/merge-source-map/node_modules/source-map/lib/array-set.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/merge-source-map/node_modules/source-map/lib/base64-vlq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/merge-source-map/node_modules/source-map/lib/base64.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/merge-source-map/node_modules/source-map/lib/binary-search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/merge-source-map/node_modules/source-map/lib/mapping-list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/merge-source-map/node_modules/source-map/lib/quick-sort.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/merge-source-map/node_modules/source-map/lib/source-map-consumer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/merge-source-map/node_modules/source-map/lib/source-map-generator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/merge-source-map/node_modules/source-map/lib/source-node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/merge-source-map/node_modules/source-map/lib/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/merge-source-map/node_modules/source-map/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/merge-source-map/node_modules/source-map/source-map.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/merge-source-map/node_modules/source-map/source-map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/merge-source-map/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/methods/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/methods/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/methods/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/methods/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/methods/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/mime-db/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/mime-db/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/mime-db/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/mime-db/db.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/mime-db/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/mime-db/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/mime-types/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/mime-types/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/mime-types/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/mime-types/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/mime-types/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/mime/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/mime/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/mime/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/mime/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/mime/cli.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/mime/mime.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/mime/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/mime/src/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/mime/src/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/mime/types.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/ms/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/ms/license.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/ms/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/ms/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/negotiator/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/negotiator/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/negotiator/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/negotiator/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/negotiator/lib/charset.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/negotiator/lib/encoding.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/negotiator/lib/language.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/negotiator/lib/mediaType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/negotiator/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/no-case/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/no-case/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/no-case/no-case.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/no-case/no-case.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/no-case/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/no-case/vendor/camel-case-regexp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/no-case/vendor/camel-case-upper-regexp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/no-case/vendor/non-word-regexp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/on-finished/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/on-finished/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/on-finished/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/on-finished/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/on-finished/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/optionator/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/optionator/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/optionator/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/optionator/lib/help.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/optionator/lib/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/optionator/lib/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/optionator/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/param-case/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/param-case/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/param-case/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/param-case/param-case.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/param-case/param-case.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/parseurl/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/parseurl/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/parseurl/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/parseurl/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/parseurl/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/path-to-regexp/History.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/path-to-regexp/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/path-to-regexp/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/path-to-regexp/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/path-to-regexp/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/prelude-ls/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/prelude-ls/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/prelude-ls/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/prelude-ls/lib/Func.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/prelude-ls/lib/List.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/prelude-ls/lib/Num.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/prelude-ls/lib/Obj.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/prelude-ls/lib/Str.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/prelude-ls/lib/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/prelude-ls/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/proxy-addr/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/proxy-addr/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/proxy-addr/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/proxy-addr/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/proxy-addr/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/qs/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/qs/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/qs/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/qs/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/qs/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/qs/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/qs/dist/qs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/qs/lib/formats.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/qs/lib/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/qs/lib/parse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/qs/lib/stringify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/qs/lib/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/qs/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/qs/test/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/qs/test/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/qs/test/parse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/qs/test/stringify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/qs/test/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/range-parser/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/range-parser/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/range-parser/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/range-parser/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/range-parser/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/raw-body/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/raw-body/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/raw-body/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/raw-body/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/raw-body/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/raw-body/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/relateurl/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/relateurl/lib/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/relateurl/lib/format.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/relateurl/lib/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/relateurl/lib/options.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/relateurl/lib/parse/host.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/relateurl/lib/parse/hrefInfo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/relateurl/lib/parse/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/relateurl/lib/parse/path.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/relateurl/lib/parse/port.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/relateurl/lib/parse/query.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/relateurl/lib/parse/urlstring.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/relateurl/lib/relate/absolutize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/relateurl/lib/relate/findRelation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/relateurl/lib/relate/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/relateurl/lib/relate/relativize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/relateurl/lib/util/devlog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/relateurl/lib/util/object.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/relateurl/lib/util/path.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/relateurl/license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/relateurl/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/safe-buffer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/safe-buffer/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/safe-buffer/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/safe-buffer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/safe-buffer/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/safer-buffer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/safer-buffer/Porting-Buffer.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/safer-buffer/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/safer-buffer/dangerous.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/safer-buffer/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/safer-buffer/safer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/safer-buffer/tests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/send/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/send/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/send/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/send/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/send/node_modules/ms/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/send/node_modules/ms/license.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/send/node_modules/ms/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/send/node_modules/ms/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/send/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/serve-static/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/serve-static/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/serve-static/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/serve-static/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/serve-static/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/setprototypeof/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/setprototypeof/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/setprototypeof/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/setprototypeof/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/setprototypeof/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/setprototypeof/test/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/source-map/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/source-map/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/source-map/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/source-map/dist/source-map.debug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/source-map/dist/source-map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/source-map/dist/source-map.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/source-map/dist/source-map.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/source-map/lib/array-set.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/source-map/lib/base64-vlq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/source-map/lib/base64.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/source-map/lib/binary-search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/source-map/lib/mapping-list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/source-map/lib/quick-sort.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/source-map/lib/source-map-consumer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/source-map/lib/source-map-generator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/source-map/lib/source-node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/source-map/lib/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/source-map/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/source-map/source-map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/statuses/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/statuses/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/statuses/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/statuses/codes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/statuses/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/statuses/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/toidentifier/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/toidentifier/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/toidentifier/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/toidentifier/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/type-check/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/type-check/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/type-check/lib/check.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/type-check/lib/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/type-check/lib/parse-type.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/type-check/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/type-is/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/type-is/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/type-is/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/type-is/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/type-is/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/uglify-js/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/uglify-js/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/uglify-js/bin/uglifyjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/uglify-js/lib/ast.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/uglify-js/lib/compress.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/uglify-js/lib/minify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/uglify-js/lib/mozilla-ast.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/uglify-js/lib/output.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/uglify-js/lib/parse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/uglify-js/lib/propmangle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/uglify-js/lib/scope.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/uglify-js/lib/sourcemap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/uglify-js/lib/transform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/uglify-js/lib/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/uglify-js/node_modules/commander/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/uglify-js/node_modules/commander/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/uglify-js/node_modules/commander/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/uglify-js/node_modules/commander/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/uglify-js/node_modules/commander/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/uglify-js/node_modules/commander/typings/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/uglify-js/node_modules/source-map/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/uglify-js/node_modules/source-map/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/uglify-js/node_modules/source-map/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/uglify-js/node_modules/source-map/dist/source-map.debug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/uglify-js/node_modules/source-map/dist/source-map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/uglify-js/node_modules/source-map/dist/source-map.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/uglify-js/node_modules/source-map/dist/source-map.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/uglify-js/node_modules/source-map/lib/array-set.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/uglify-js/node_modules/source-map/lib/base64-vlq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/uglify-js/node_modules/source-map/lib/base64.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/uglify-js/node_modules/source-map/lib/binary-search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/uglify-js/node_modules/source-map/lib/mapping-list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/uglify-js/node_modules/source-map/lib/quick-sort.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/uglify-js/node_modules/source-map/lib/source-map-consumer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/uglify-js/node_modules/source-map/lib/source-map-generator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/uglify-js/node_modules/source-map/lib/source-node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/uglify-js/node_modules/source-map/lib/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/uglify-js/node_modules/source-map/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/uglify-js/node_modules/source-map/source-map.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/uglify-js/node_modules/source-map/source-map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/uglify-js/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/uglify-js/tools/domprops.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/uglify-js/tools/exit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/uglify-js/tools/exports.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/uglify-js/tools/node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/uglify-js/tools/props.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/unpipe/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/unpipe/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/unpipe/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/unpipe/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/unpipe/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/upper-case/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/upper-case/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/upper-case/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/upper-case/upper-case.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/upper-case/upper-case.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/utils-merge/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/utils-merge/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/utils-merge/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/utils-merge/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/utils-merge/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/vary/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/vary/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/vary/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/vary/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/vary/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/word-wrap/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/word-wrap/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/word-wrap/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/word-wrap/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/node_modules/word-wrap/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/public/css/dashboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/readMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/student-fs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/student.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/views/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/crud-express/views/new.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/data/a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/data/b.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/data/c.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/mongoose-demo/readMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/code/mysql-demo/demo01.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06/blog/a.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06/blog/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06/blog/models/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06/blog/public/a.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06/blog/router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06/blog/views/_layouts/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06/blog/views/_partials/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06/blog/views/_partials/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06/blog/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06/blog/views/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06/blog/views/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04/code/crud-express/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/04/code/crud-express/db.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04/code/crud-express/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/04/code/crud-express/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04/code/crud-express/student.js" beforeDir="false" afterPath="$PROJECT_DIR$/04/code/crud-express/student.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05/code/mongoose-demo/demo02.js" beforeDir="false" afterPath="$PROJECT_DIR$/05/code/mongoose-demo/demo02.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,20 +951,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05/code/mongoose-demo/demo01.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/06/blog/router.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+            <state relative-caret-position="286">
+              <caret line="58" column="21" lean-forward="true" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/05/code/mongoose-demo/demo02.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/06/blog/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+            <state relative-caret-position="374">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/06/blog/models/user.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/06/blog/views/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="31" column="46" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="46" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/06/blog/views/register.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="404">
+              <caret line="65" column="9" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/06/blog/views/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="87">
+              <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -62,37 +1043,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/01/resource/main.css" />
-        <option value="$PROJECT_DIR$/01/12.http-fs.js" />
-        <option value="$PROJECT_DIR$/01/resource/index.html" />
-        <option value="$PROJECT_DIR$/02/code/00-代码无分号问题.js" />
-        <option value="$PROJECT_DIR$/02/04-读取目录.js" />
-        <option value="$PROJECT_DIR$/02/package.json" />
-        <option value="$PROJECT_DIR$/02/code/04-读取目录.js" />
-        <option value="$PROJECT_DIR$/02/code/template.html" />
-        <option value="$PROJECT_DIR$/02/code/03-目录列表.js" />
-        <option value="$PROJECT_DIR$/02/05-在node中使用模板引擎.js" />
-        <option value="$PROJECT_DIR$/02/code/06-在浏览器使用art-template.html" />
-        <option value="$PROJECT_DIR$/02/code/tpl.html" />
-        <option value="$PROJECT_DIR$/02/code/05-在node中使用模板引擎.js" />
-        <option value="$PROJECT_DIR$/02/code/feedback/package.json" />
-        <option value="$PROJECT_DIR$/02/code/feedback/views/index.html" />
-        <option value="$PROJECT_DIR$/02/code/feedback/views/404.html" />
-        <option value="$PROJECT_DIR$/02/code/feedback/views/post.html" />
-        <option value="$PROJECT_DIR$/02/code/feedback/app.js" />
-        <option value="$PROJECT_DIR$/03/code/01-module/foot.js" />
-        <option value="$PROJECT_DIR$/03/code/01-module/package.json" />
-        <option value="$PROJECT_DIR$/03/code/01-module/main.js" />
-        <option value="$PROJECT_DIR$/03/code/01-module/foo.js" />
-        <option value="$PROJECT_DIR$/03/express-demo/package.json" />
-        <option value="$PROJECT_DIR$/03/express-demo/public/js.js" />
-        <option value="$PROJECT_DIR$/03/express-demo/public/js/main.js" />
-        <option value="$PROJECT_DIR$/03/express-demo/app.js" />
-        <option value="$PROJECT_DIR$/04/code/express-demo/package.json" />
-        <option value="$PROJECT_DIR$/04/code/express-demo/readMe.md" />
-        <option value="$PROJECT_DIR$/04/code/express-demo/index.html" />
-        <option value="$PROJECT_DIR$/04/code/express-demo/public/js/main.js" />
-        <option value="$PROJECT_DIR$/04/code/express-demo/app.js" />
         <option value="$PROJECT_DIR$/04/code/feedback/package.json" />
         <option value="$PROJECT_DIR$/04/code/feedback/readMe.md" />
         <option value="$PROJECT_DIR$/04/code/feedback/views/admin/index.html" />
@@ -112,13 +1062,44 @@
         <option value="$PROJECT_DIR$/04/code/crud-express/db.json" />
         <option value="$PROJECT_DIR$/05/code/mongoose-demo/package.json" />
         <option value="$PROJECT_DIR$/05/code/mongoose-demo/demo01.js" />
+        <option value="$PROJECT_DIR$/05/code/crud-express/student-fs.js" />
+        <option value="$PROJECT_DIR$/05/code/crud-express/student.js" />
+        <option value="$PROJECT_DIR$/05/code/mongoose-demo/readMe.md" />
+        <option value="$PROJECT_DIR$/05/code/crud-express/views/edit.html" />
         <option value="$PROJECT_DIR$/05/code/mongoose-demo/demo02.js" />
+        <option value="$PROJECT_DIR$/05/code/crud-express/router.js" />
+        <option value="$PROJECT_DIR$/05/code/crud-express/views/index.html" />
+        <option value="$PROJECT_DIR$/05/code/mysql-demo/package.json" />
+        <option value="$PROJECT_DIR$/05/code/mysql-demo/demo01.js" />
+        <option value="$PROJECT_DIR$/05/code/package.json" />
+        <option value="$PROJECT_DIR$/05/code/data/a.js" />
+        <option value="$PROJECT_DIR$/05/code/data/c.js" />
+        <option value="$PROJECT_DIR$/05/code/data/b.js" />
+        <option value="$PROJECT_DIR$/05/code/data/c.txt" />
+        <option value="$PROJECT_DIR$/05/code/data/b.txt" />
+        <option value="$PROJECT_DIR$/05/code/1-用promise封装readFile.js" />
+        <option value="$PROJECT_DIR$/06/blog/package.json" />
+        <option value="$PROJECT_DIR$/06/blog/node_modules/a.js" />
+        <option value="$PROJECT_DIR$/06/blog/a.js" />
+        <option value="$PROJECT_DIR$/06/blog/public/a.js" />
+        <option value="$PROJECT_DIR$/06/blog/views/header.html" />
+        <option value="$PROJECT_DIR$/06/blog/views/footer.html" />
+        <option value="$PROJECT_DIR$/06/blog/views/layout.html" />
+        <option value="$PROJECT_DIR$/06/blog/views/_layouts/home.html" />
+        <option value="$PROJECT_DIR$/06/blog/views/_partials/footer.html" />
+        <option value="$PROJECT_DIR$/06/blog/views/_partials/header.html" />
+        <option value="$PROJECT_DIR$/06/blog/views/index.html" />
+        <option value="$PROJECT_DIR$/06/blog/views/login.html" />
+        <option value="$PROJECT_DIR$/06/blog/app.js" />
+        <option value="$PROJECT_DIR$/06/blog/models/user.js" />
+        <option value="$PROJECT_DIR$/06/blog/views/register.html" />
+        <option value="$PROJECT_DIR$/06/blog/router.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="958" />
-    <option name="y" value="40" />
+    <option name="x" value="613" />
+    <option name="y" value="156" />
     <option name="width" value="1325" />
     <option name="height" value="953" />
   </component>
@@ -138,20 +1119,20 @@
             <path>
               <item name="node" type="b2602c69:ProjectViewProjectNode" />
               <item name="node" type="462c0819:PsiDirectoryNode" />
-              <item name="05" type="462c0819:PsiDirectoryNode" />
+              <item name="06" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="node" type="b2602c69:ProjectViewProjectNode" />
               <item name="node" type="462c0819:PsiDirectoryNode" />
-              <item name="05" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="06" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="node" type="b2602c69:ProjectViewProjectNode" />
               <item name="node" type="462c0819:PsiDirectoryNode" />
-              <item name="05" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="mongoose-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="06" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -164,7 +1145,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/04/code/feedback" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/05/code" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -173,17 +1154,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\phpStudy\PHPTutorial\WWW\study\node\06\blog" />
       <recent name="C:\phpStudy\PHPTutorial\WWW\study\node\04\code\express-demo\public" />
       <recent name="C:\phpStudy\PHPTutorial\WWW\study\node\03\express-demo\public\js" />
       <recent name="C:\phpStudy\PHPTutorial\WWW\study\node\02\code" />
       <recent name="C:\phpStudy\PHPTutorial\WWW\study\node\01" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\phpStudy\PHPTutorial\WWW\study\node\05\code" />
       <recent name="C:\phpStudy\PHPTutorial\WWW\study\node\04\code\feedback" />
       <recent name="C:\phpStudy\PHPTutorial\WWW\study\node\02\code\feedback\public\lib" />
       <recent name="C:\phpStudy\PHPTutorial\WWW\study\node\02\code\feedback\public\js" />
       <recent name="C:\phpStudy\PHPTutorial\WWW\study\node\02\code\feedback\public\css" />
-      <recent name="C:\phpStudy\PHPTutorial\WWW\study\node\01\resource" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -220,12 +1202,17 @@
       <workItem from="1575680244986" duration="18217000" />
       <workItem from="1575853826070" duration="9439000" />
       <workItem from="1575942080497" duration="7237000" />
-      <workItem from="1576025984004" duration="5966000" />
+      <workItem from="1576025984004" duration="6165000" />
+      <workItem from="1576112750793" duration="12828000" />
+      <workItem from="1576199466319" duration="598000" />
+      <workItem from="1576372825813" duration="1009000" />
+      <workItem from="1576458536116" duration="13169000" />
+      <workItem from="1576544762662" duration="8558000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127556000" />
+    <option name="totallyTimeSpent" value="163917000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -237,13 +1224,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="958" y="40" width="1325" height="953" extended-state="0" />
+    <frame x="613" y="156" width="1325" height="953" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17793317" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17171717" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32844934" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32804877" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -252,7 +1239,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="RNConsole" order="9" weight="0.32842582" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.26463413" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.30609757" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -283,228 +1270,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/02/code/05-在node中使用模板引擎.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="43" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="43" />
-          <folding>
-            <element signature="e#68#103#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02/code/tpl.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02/code/06-在浏览器使用art-template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02/code/feedback/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02/code/feedback/public/js/bootstrap.js" />
-    <entry file="file://$PROJECT_DIR$/02/code/feedback/public/css/bootstrap.css" />
-    <entry file="file://$PROJECT_DIR$/02/code/feedback/public/lib/bootstrap/js/src/tools/sanitizer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01/11.http-content-type.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02/code/feedback/views/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02/code/feedback/views/post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02/code/feedback/views/404.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01/9_module/a.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01/9_module/b.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01/9_module/c.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" selection-start-column="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01/9_module/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01/9_module/import_export/b.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" lean-forward="true" selection-end-line="12" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01/9_module/import_export/a.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03/code/01-module/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03/code/01-module/foo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03/code/01-module/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03/express-demo/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <folding>
-              <element signature="e#2#37#0" expanded="true" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03/express-demo/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03/express-demo/public/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04/code/express-demo/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04/code/express-demo/readMe.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="198">
-            <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04/code/express-demo/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04/code/express-demo/public/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04/code/express-demo/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04/code/feedback/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04/code/feedback/readMe.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="110">
-            <caret line="5" column="42" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="42" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/02/code/feedback/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -667,15 +1432,238 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/05/code/mongoose-demo/demo01.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+        <state relative-caret-position="462">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05/code/crud-express/views/new.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05/code/mongoose-demo/readMe.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="369">
+            <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05/code/crud-express/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-158">
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05/code/crud-express/student-fs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3344">
+          <caret line="153" column="17" lean-forward="true" selection-start-line="153" selection-start-column="17" selection-end-line="153" selection-end-column="17" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05/code/crud-express/views/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="94" column="34" lean-forward="true" selection-start-line="94" selection-start-column="34" selection-end-line="94" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05/code/crud-express/student.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/05/code/mongoose-demo/demo02.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+        <state relative-caret-position="196">
+          <caret line="89" column="23" selection-start-line="89" selection-start-column="23" selection-end-line="89" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05/code/crud-express/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="121" column="20" lean-forward="true" selection-start-line="121" selection-start-column="20" selection-end-line="121" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05/code/crud-express/views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="103" column="31" selection-start-line="103" selection-start-column="31" selection-end-line="103" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05/code/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05/code/mysql-demo/demo01.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05/code/mysql-demo/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05/code/1-用promise封装readFile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05/code/data/c.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05/code/data/b.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05/code/data/a.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06/blog/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06/blog/public/a.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06/blog/node_modules/express/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06/blog/a.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06/blog/views/header.html" />
+    <entry file="file://$PROJECT_DIR$/06/blog/views/layout.html" />
+    <entry file="file://$PROJECT_DIR$/06/blog/views/footer.html" />
+    <entry file="file://$PROJECT_DIR$/06/blog/views/_partials/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06/blog/views/_partials/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="42" selection-start-line="42" selection-start-column="4" selection-end-line="48" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06/blog/views/_layouts/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06/blog/models/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06/blog/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06/blog/views/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="31" column="46" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="46" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06/blog/views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06/blog/views/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="65" column="9" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06/blog/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="58" column="21" lean-forward="true" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

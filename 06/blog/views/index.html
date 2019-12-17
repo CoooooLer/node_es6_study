@@ -1,0 +1,37 @@
+{{ extend './_layouts/home.html' }}
+
+{{ block 'title' }} 首页 {{ /block }}
+
+{{ block 'body' }}
+  <div class="container">
+    <div class="jumbotron" style="padding: 0.2rem 2rem">
+      <h3>Navbar example</h3>
+      <p>This example is a quick exercise to illustrate how the default, static navbar and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
+      <p>
+        <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">View navbar docs &raquo;</a>
+      </p>
+    </div>
+
+    <nav aria-label="Page navigation">
+      <ul class="pagination">
+        <li>
+          <a href="#" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+          </a>
+        </li>
+        <li><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">5</a></li>
+        <li>
+          <a href="#" aria-label="Next">
+            <span aria-hidden="true">&raquo;</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+  </div>
+
+{{ /block }}
